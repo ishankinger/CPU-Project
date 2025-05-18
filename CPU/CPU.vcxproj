@@ -127,7 +127,39 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="start.cpp" />
+    <ClCompile Include="B_type.cpp" />
+    <ClCompile Include="File.cpp" />
+    <ClCompile Include="Fucntion.cpp" />
+    <ClCompile Include="Instructions.cpp" />
+    <ClCompile Include="I_type.cpp" />
+    <ClCompile Include="I_type2.cpp" />
+    <ClCompile Include="I_type3.cpp" />
+    <ClCompile Include="J_type.cpp" />
+    <ClCompile Include="L_type.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Pipeline.cpp" />
+    <ClCompile Include="Registers.cpp" />
+    <ClCompile Include="R_type.cpp" />
+    <ClCompile Include="S_type.cpp" />
+    <ClCompile Include="U_type.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="B_type.hpp" />
+    <ClInclude Include="File.hpp" />
+    <ClInclude Include="Function.hpp" />
+    <ClInclude Include="Instructions.hpp" />
+    <ClInclude Include="I_type.hpp" />
+    <ClInclude Include="I_type2.hpp" />
+    <ClInclude Include="I_type3.hpp" />
+    <ClInclude Include="J_type.hpp" />
+    <ClInclude Include="L_type.hpp" />
+    <ClInclude Include="Registers.hpp" />
+    <ClInclude Include="R_type.hpp" />
+    <ClInclude Include="S_type.hpp" />
+    <ClInclude Include="U_type.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assemblyCode.s" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
