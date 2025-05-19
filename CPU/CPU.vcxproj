@@ -127,9 +127,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="AssosciativeCache.cpp" />
     <ClCompile Include="B_type.cpp" />
+    <ClCompile Include="DirectMappedCache.cpp" />
     <ClCompile Include="File.cpp" />
     <ClCompile Include="Fucntion.cpp" />
+    <ClCompile Include="HitMissRate.cpp" />
     <ClCompile Include="Instructions.cpp" />
     <ClCompile Include="I_type.cpp" />
     <ClCompile Include="I_type2.cpp" />
@@ -140,6 +143,7 @@
     <ClCompile Include="Pipeline.cpp" />
     <ClCompile Include="Registers.cpp" />
     <ClCompile Include="R_type.cpp" />
+    <ClCompile Include="SetAssosciativeCache.cpp" />
     <ClCompile Include="S_type.cpp" />
     <ClCompile Include="U_type.cpp" />
   </ItemGroup>
